@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button android:id="@+id/button_00" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/button_02" />
+
+        <Button android:id="@+id/button_10" />
+
+        <Button android:id="@+id/button_11" />
+
+        <Button android:id="@+id/button_12" />
+
+        <Button android:id="@+id/button_20" />
+
+        <Button android:id="@+id/button_21" />
+
+        <Button android:id="@+id/button_22" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/turn_status"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_restart"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:rotation="0"
+        android:text="Play Again"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
